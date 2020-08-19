@@ -1,7 +1,13 @@
-baseURL = "http://example.org/"
-languageCode = "ja"
+baseurl = "http://example.org/"
 title = "わかばめさいと"
+languageCode = "ja"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 contentDir = "post"
 disableKinds = ["RSS", "sitemap"]
+
+
 [taxonomies]
 tag = "tags"
