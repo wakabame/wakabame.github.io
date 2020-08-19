@@ -1,0 +1,7 @@
+baseURL = "http://example.org/"
+languageCode = "ja"
+title = "わかばめさいと"
+contentDir = "post"
+disableKinds = ["RSS", "sitemap"]
+[taxonomies]
+tag = "tags"
